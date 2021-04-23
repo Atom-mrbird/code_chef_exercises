@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.io.*;
+
+
+class Main{
+    
+public static void main(String args[]){
+    try{
+        Scanner input = new Scanner(System.in);
+        int T = input.nextInt();
+        for(int i=0; i<T; i++){
+        int A = input.nextInt();
+        int B = input.nextInt();
+        System.out.println(A%B);
+        }
+    }
+    catch(Exception e){}
+}
+}
